@@ -2,3 +2,33 @@
     max-resolution: 0px;
     padding: 0px;
 }
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 20px;
+    align-items: center;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+.one:hover{
+    color: orange;
+}
+.two:hover{
+    color: orange;
+}
+.three:hover{
+    color: orange;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg");
+}
